@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle do Motor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+    <!-- Ícone ou Logo -->
+    <img src="/icons/pet192.png" alt="Logo" id="logo">
+
+    <h1>Alimentador</h1>
+    <button id="activateMotor">Ativar</button>
+
+    <h2>Últimos Acionamentos</h2>
+    <table id="logsTable">
+        <thead>
+            <tr>
+                <th>Horário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Logs serão inseridos aqui -->
+        </tbody>
+    </table>
+
+    <!-- Firebase App (Firebase SDK) -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-database.js"></script>
+    <!-- Your web app's Firebase configuration -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>

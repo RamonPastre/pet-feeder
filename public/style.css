@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #logo {
+    margin: 30px auto;  /* Centraliza a imagem e adiciona espaço ao redor */
+    width: 200px;       /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    display: block;     /* Garante que o elemento seja exibido como bloco, permitindo centralização */
+    margin-top: 50px;
+    align-items: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  #activateMotor {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Cor inicial do botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#activateMotor.activated {
+    background-color: #ff0000; /* Cor quando o botão é clicado */
+}
